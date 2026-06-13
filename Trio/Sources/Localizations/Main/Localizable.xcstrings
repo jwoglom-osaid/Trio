@@ -85009,7 +85009,7 @@
         }
       }
     },
-    "Default notification banner. Suppressed by Silence and Focus Mode." : {
+    "Default notification banner. Suppressed by Silence & Focus Mode." : {
 
     },
     "Default Percent: 70%" : {
@@ -193848,7 +193848,7 @@
     "Overrides Silence & Focus Mode" : {
 
     },
-    "Overrides Silence & Focus Mode. Always audible. For situations requiring immediate attention." : {
+    "Overrides Silence & Focus Mode. For situations requiring immediate attention." : {
 
     },
     "Overview" : {
