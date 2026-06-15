@@ -274,6 +274,16 @@ final class BaseAPSManager: APSManager, Injectable {
                 return
             }
 
+            // Don't try to run a loop while pump setup / pod pairing is in
+            // progress — `verifyStatus` would throw `invalidPumpState("Pump not
+            // set")` and surface a modal banner on top of the pod activation
+            // sheet, closing the sheet (reported by tester during O5 pairing).
+            guard pumpManager != nil else {
+                debug(.apsManager, "No pump manager — skipping loop attempt")
+                await loopGuard.finish()
+                return
+            }
+
             // Consume the user-initiated flag for the duration of this loop —
             // affects whether transient errors surface immediately instead of
             // dwell-suppressed (see `surfaceErrorIfNeeded`).
