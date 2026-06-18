@@ -13,6 +13,7 @@ import OmnipodKit
 import ShareClient
 import SwiftDate
 import Swinject
+import TandemKit
 import UserNotifications
 
 protocol DeviceDataManager: GlucoseSource {
@@ -40,6 +41,7 @@ private let staticPumpManagers: [PumpManagerUI.Type] = [
     OmniPumpManager.self,
     DanaKitPumpManager.self,
     MedtrumPumpManager.self,
+    TandemPumpManager.self,
     MockPumpManager.self
 ]
 
@@ -48,6 +50,7 @@ private let staticPumpManagersByIdentifier: [String: PumpManagerUI.Type] = [
     OmniPumpManager.pluginIdentifier: OmniPumpManager.self,
     DanaKitPumpManager.pluginIdentifier: DanaKitPumpManager.self,
     MedtrumPumpManager.pluginIdentifier: MedtrumPumpManager.self,
+    TandemPumpManager.pluginIdentifier: TandemPumpManager.self,
     MockPumpManager.pluginIdentifier: MockPumpManager.self
 ]
 

@@ -31,3 +31,7 @@
 [submodule "OmnipodKit"]
 	path = OmnipodKit
 	url = https://github.com/loopandlearn/OmnipodKit
+[submodule "TandemKit"]
+	path = TandemKit
+	url = git@github.com:jwoglom/tandemkit
+	branch = dev
