@@ -239,6 +239,7 @@
 		38FCF3D625E8FDF40078B0D1 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCF3D525E8FDF40078B0D1 /* MD5.swift */; };
 		38FCF3F925E902C20078B0D1 /* FileStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCF3F825E902C20078B0D1 /* FileStorageTests.swift */; };
 		BD11A001000000000000A002 /* AlertMuterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11A000000000000000A002 /* AlertMuterTests.swift */; };
+		BD11A001000000000000A007 /* GlucoseAlertConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11A000000000000000A007 /* GlucoseAlertConfigurationTests.swift */; };
 		BD11A001000000000000A006 /* ForecastedGlucoseEvaluatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11A000000000000000A006 /* ForecastedGlucoseEvaluatorTests.swift */; };
 		BD11A001000000000000A003 /* DeviceAlertsStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11A000000000000000A003 /* DeviceAlertsStoreTests.swift */; };
 		38FCF3FD25E997A80078B0D1 /* PumpHistoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCF3FC25E997A80078B0D1 /* PumpHistoryStorage.swift */; };
@@ -1246,6 +1247,7 @@
 		38FCF3F125E9028E0078B0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38FCF3F825E902C20078B0D1 /* FileStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorageTests.swift; sourceTree = "<group>"; };
 		BD11A000000000000000A002 /* AlertMuterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMuterTests.swift; sourceTree = "<group>"; };
+		BD11A000000000000000A007 /* GlucoseAlertConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseAlertConfigurationTests.swift; sourceTree = "<group>"; };
 		BD11A000000000000000A006 /* ForecastedGlucoseEvaluatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastedGlucoseEvaluatorTests.swift; sourceTree = "<group>"; };
 		BD11A000000000000000A003 /* DeviceAlertsStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAlertsStoreTests.swift; sourceTree = "<group>"; };
 		38FCF3FC25E997A80078B0D1 /* PumpHistoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PumpHistoryStorage.swift; sourceTree = "<group>"; };
@@ -3021,6 +3023,7 @@
 				3BAAE60B2DE776630049589B /* DynamicISFEnableTests.swift */,
 				38FCF3F825E902C20078B0D1 /* FileStorageTests.swift */,
 				BD11A000000000000000A002 /* AlertMuterTests.swift */,
+				BD11A000000000000000A007 /* GlucoseAlertConfigurationTests.swift */,
 				BD11A000000000000000A006 /* ForecastedGlucoseEvaluatorTests.swift */,
 				BD11A000000000000000A003 /* DeviceAlertsStoreTests.swift */,
 				3B997DCE2DC00A3A006B6BB2 /* JSONImporterTests.swift */,
@@ -5623,6 +5626,7 @@
 				3B2CE68B2E24ADF7005EF782 /* IobGenerateTests.swift in Sources */,
 				3B1C5C482D68E269004E9273 /* IobHistoryTests.swift in Sources */,
 				38FCF3F925E902C20078B0D1 /* FileStorageTests.swift in Sources */,
+				BD11A001000000000000A007 /* GlucoseAlertConfigurationTests.swift in Sources */,
 				BD11A001000000000000A006 /* ForecastedGlucoseEvaluatorTests.swift in Sources */,
 				3B8221B22E5882E300585156 /* DetermineBasalEarlyExitTests.swift in Sources */,
 				3BA643EA2ED9FAD8007BC31F /* DetermineBasalAggressiveDosingTests.swift in Sources */,
