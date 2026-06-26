@@ -176145,6 +176145,9 @@
         }
       }
     },
+    "Mutes every Trio alarm for a duration you pick. Critical alerts still pierce the snooze." : {
+
+    },
     "Name" : {
       "comment" : "Preset name",
       "localizations" : {
@@ -230333,6 +230336,12 @@
           }
         }
       }
+    },
+    "Snooze all (15 min)" : {
+
+    },
+    "Snooze All Alarms" : {
+
     },
     "snooze from testview clicked" : {
       "extractionState" : "manual",
