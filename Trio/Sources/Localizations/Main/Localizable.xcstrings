@@ -8906,6 +8906,9 @@
         }
       }
     },
+    "%@ Device Alerts" : {
+      "comment" : "Device Alerts help sheet label; text reads: '<severity level> Device Alerts'."
+    },
     "%@ g" : {
       "localizations" : {
         "bg" : {
@@ -47219,7 +47222,7 @@
         }
       }
     },
-    "Applies To" : {
+    "Applies To (Cannot be changed)" : {
 
     },
     "Apply a Temporary Target" : {
@@ -85022,7 +85025,7 @@
         }
       }
     },
-    "Default notification banner. Suppressed by Silence & Focus Mode." : {
+    "Default notification banner. Suppressed by Silence & Focus Mode by default." : {
 
     },
     "Default Percent: 70%" : {
@@ -123548,6 +123551,9 @@
         }
       }
     },
+    "For everyday heads-up notifications. These behave like a standard banner — they stay quiet when your phone is silenced or a Focus is on. Examples: an algorithm error, a sensor expiration reminder, or a time-zone change being detected." : {
+
+    },
     "For example, at a temp target of %@ %@, your basal is reduced to 50%%, but this scales depending on the target (e.g., 75%% at %@ %@, 60%% at %@ %@)." : {
       "localizations" : {
         "bg" : {
@@ -124049,6 +124055,12 @@
           }
         }
       }
+    },
+    "For situations that require prompt attention. These break through Silent Mode, Do Not Disturb, and any Focus you have enabled. Examples: a pump fault, an occlusion, or Trio not looping for too long. Heads up: if your build of Trio has Apple's Critical Alerts entitlement, iOS plays its own critical alert sound and the sound you picked for this alert category is ignored." : {
+
+    },
+    "For things you should know about soon, but not 'act right now'. These can break through banner suppression on the lock screen, but they still obey Silent Mode and Focus by default. Examples: reservoir running low, pod or patch expiring soon, or glucose data going stale." : {
+
     },
     "For write data to Apple Health you must give permissions in Settings > Health > Data Access" : {
       "comment" : "Show when have not permissions for writing to Health",
@@ -193847,9 +193859,6 @@
     "Overrides Focus" : {
 
     },
-    "Overrides Silence & Focus Mode" : {
-
-    },
     "Overrides Silence & Focus Mode. For situations requiring immediate attention." : {
 
     },
@@ -197411,7 +197420,7 @@
         }
       }
     },
-    "Pierces banner suppression but obeys Silence & Focus Mode." : {
+    "Pierces banner suppression but obeys Silence & Focus Mode by default." : {
 
     },
     "Play Sound" : {
