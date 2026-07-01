@@ -62900,6 +62900,9 @@
         }
       }
     },
+    "Calibration unavailable" : {
+
+    },
     "Calibrationinfo" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -72360,6 +72363,7 @@
 
     },
     "Click to Snooze Alerts" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -129484,6 +129488,9 @@
         }
       }
     },
+    "Glucose is stale for calibration" : {
+
+    },
     "Glucose is very low." : {
       "localizations" : {
         "bg" : {
@@ -135582,6 +135589,7 @@
     },
     "High Glucose Alarm active" : {
       "comment" : "High Glucose Alarm active",
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -145525,7 +145533,7 @@
       }
     },
     "Info" : {
-      "comment" : "Info icon in main view\nInfo title",
+      "comment" : "Info icon in main view",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -160783,6 +160791,7 @@
     },
     "Low Glucose Alarm active" : {
       "comment" : "Low Glucose Alarm active",
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -176172,7 +176181,7 @@
         }
       }
     },
-    "Mutes every Trio alarm for a duration you pick. Critical alerts still pierce the snooze." : {
+    "Mute Trio Alarms" : {
 
     },
     "Name" : {
@@ -179083,6 +179092,7 @@
     },
     "No Glucose Alarm active" : {
       "comment" : "No Glucose Alarm active",
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -181490,6 +181500,9 @@
         }
       }
     },
+    "No URL available" : {
+
+    },
     "Noise:" : {
       "localizations" : {
         "bg" : {
@@ -183523,6 +183536,7 @@
     },
     "not snoozing" : {
       "comment" : "not snoozing",
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -190302,6 +190316,9 @@
         }
       }
     },
+    "Open failed" : {
+
+    },
     "Open iOS Settings" : {
       "comment" : "Manage Permissions in Settings button text",
       "localizations" : {
@@ -191706,6 +191723,9 @@
           }
         }
       }
+    },
+    "Other Notifications" : {
+
     },
     "Other third-party services, like Apple Health or Tidepool, can be added later through the settings menu." : {
       "localizations" : {
@@ -197295,6 +197315,9 @@
           }
         }
       }
+    },
+    "Pick a duration to mute every Trio alarm. Critical alerts (e.g. occlusion, urgent low) still pierce the snooze." : {
+
     },
     "Pick Treatment" : {
       "localizations" : {
@@ -230516,8 +230539,12 @@
         }
       }
     },
+    "Snoozed until %@" : {
+
+    },
     "snoozing until %@" : {
       "comment" : "snoozing until %@",
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -236057,6 +236084,7 @@
       }
     },
     "Strength" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -244099,6 +244127,9 @@
           }
         }
       }
+    },
+    "The app Garmin Connect must be installed to use Trio.\nGo to the App Store to download it." : {
+
     },
     "The Autosens Ratio is used to calculate the amount of adjustment needed to basal rates, ISF, and CR." : {
       "localizations" : {
@@ -272943,6 +272974,9 @@
         }
       }
     },
+    "Unable to open the app" : {
+
+    },
     "Unable to render payload." : {
 
     },
@@ -280682,6 +280716,7 @@
     },
     "Warning" : {
       "comment" : "Warning title",
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
