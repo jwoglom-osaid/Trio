@@ -8,6 +8,7 @@ import UIKit
 
 protocol NightscoutManager: GlucoseSource {
     func fetchGlucose(since date: Date) async -> [BloodGlucose]
+    func fetchGlucose(since date: Date, until endDate: Date) async -> [BloodGlucose]
     func fetchCarbs() async -> [CarbsEntry]
     func fetchTempTargets() async -> [TempTarget]
     /// Returns false when Nightscout rejected the delete; unconfigured or upload-disabled Nightscout counts as success.
@@ -354,6 +355,14 @@ final class BaseNightscoutManager: NightscoutManager, Injectable {
     }
 
     func fetchGlucose(since date: Date) async -> [BloodGlucose] {
+        await fetchGlucose(since: date, until: nil)
+    }
+
+    func fetchGlucose(since date: Date, until endDate: Date) async -> [BloodGlucose] {
+        await fetchGlucose(since: date, until: Optional(endDate))
+    }
+
+    private func fetchGlucose(since date: Date, until endDate: Date?) async -> [BloodGlucose] {
         let useLocal = settingsManager.settings.useLocalGlucoseSource
         ping = nil
 
@@ -374,7 +383,7 @@ final class BaseNightscoutManager: NightscoutManager, Injectable {
         let startDate = Date()
 
         do {
-            let glucose = try await nightscout.fetchLastGlucose(sinceDate: date)
+            let glucose = try await nightscout.fetchLastGlucose(sinceDate: date, untilDate: endDate)
             if glucose.isNotEmpty {
                 ping = Date().timeIntervalSince(startDate)
             }
