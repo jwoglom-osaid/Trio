@@ -214,6 +214,12 @@ jobs:
           submodules: recursive
           ref: ${{ env.TARGET_BRANCH }}
 
+      # Fails in ~1s if a .swift file was added without being wired into a
+      # target, instead of burning ~19 min to fail in the archive step with a
+      # pile of "cannot find 'X' in scope" errors far from the cause.
+      - name: Check for orphaned source files
+        run: python3 scripts/check_orphaned_sources.py
+
       # Customize Trio: Use patches or download and apply patches from GitHub
       - name: Customize Trio
         run: |
