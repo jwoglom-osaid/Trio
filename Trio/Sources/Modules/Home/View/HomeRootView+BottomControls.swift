@@ -648,8 +648,8 @@ extension Home.RootView {
                                 localized: "\(range.possessiveName) average",
                                 comment: "Stats banner subtitle, e.g. Today's average"
                             ))
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
                         }
                     case .loopingPerformance:
                         VStack(alignment: .leading, spacing: 6) {
@@ -657,10 +657,10 @@ extension Home.RootView {
                                 localized: "\(range.possessiveName) Looping Performance",
                                 comment: "Stats banner subtitle, e.g. Today's Looping Performance"
                             ))
-                            .font(.subheadline).fontWeight(.semibold)
-                            .foregroundStyle(.secondary)
-                            .lineLimit(1)
-                            .minimumScaleFactor(0.8)
+                                .font(.subheadline).fontWeight(.semibold)
+                                .foregroundStyle(.secondary)
+                                .lineLimit(1)
+                                .minimumScaleFactor(0.8)
 
                             statsDistributionBar(loopSegments)
                                 .frame(height: 6)
@@ -678,8 +678,8 @@ extension Home.RootView {
                                 localized: "\(range.possessiveName) total daily dose",
                                 comment: "Stats banner subtitle, e.g. Today's total daily dose"
                             ))
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
                         }
                     case .hidden:
                         Text("View Statistics", comment: "Stats banner hidden face")

@@ -358,7 +358,8 @@ extension Stat.StateModel {
         /// These charts have no "today" bucket, so it collapses onto the day view.
         init(_ range: HomeStatsPanelRange) {
             switch range {
-            case .today, .day: self = .day
+            case .day,
+                 .today: self = .day
             case .week: self = .week
             case .month: self = .month
             case .threeMonths: self = .total

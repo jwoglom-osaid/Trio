@@ -26,8 +26,7 @@ import Testing
             (HomeStatsPanelRange.month, 30.0),
             (HomeStatsPanelRange.threeMonths, 90.0)
         ]
-    )
-    func trailingRangesSubtractSpan(range: HomeStatsPanelRange, days: Double) {
+    ) func trailingRangesSubtractSpan(range: HomeStatsPanelRange, days: Double) {
         let start = range.startDate(relativeTo: Self.reference)
         #expect(start == Self.reference.addingTimeInterval(-days * Self.day))
     }

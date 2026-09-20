@@ -171,8 +171,7 @@ extension NightscoutConfig {
             .onAppear(perform: configureView)
         }
 
-        @MainActor
-        private func performBackfill(days: Int) async {
+        @MainActor private func performBackfill(days: Int) async {
             await state.backfillGlucose(days: days)
             if !state.message.isEmpty, state.message.hasPrefix("Error:") {
                 backfillAlert = Alert(
