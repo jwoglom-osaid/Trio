@@ -281,6 +281,7 @@ extension LiveActivityAttributes.ContentState {
             glucoseColorScheme: glucoseColorScheme,
             useDetailedViewIOS: useDetailedViewIOS,
             useDetailedViewWatchOS: useDetailedViewWatchOS,
+            simpleViewStyle: simpleViewStyle,
             detailedViewState: newValue,
             isInitialState: isInitialState
         )

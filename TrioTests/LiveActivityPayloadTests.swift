@@ -66,6 +66,7 @@ import Testing
             glucoseColorScheme: "dynamicColor",
             useDetailedViewIOS: true,
             useDetailedViewWatchOS: true,
+            simpleViewStyle: .default,
             detailedViewState: LiveActivityAttributes.ContentAdditionalState(
                 chart: chart,
                 rotationDegrees: 0,
