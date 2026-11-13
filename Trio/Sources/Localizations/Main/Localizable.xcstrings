@@ -1254,6 +1254,9 @@
     "This build of Trio can't send reports. Please share your logs on Discord or Facebook instead." : {
 
     },
+    "Tidepool Login Required" : {
+
+    },
     "Title (optional)" : {
 
     },
@@ -1264,6 +1267,9 @@
 
     },
     "Up to %lld screenshots or photos." : {
+
+    },
+    "Uploads to Tidepool are paused. Tap to log in." : {
 
     },
     "You've sent several reports today. Please try again tomorrow." : {
@@ -5518,6 +5524,7 @@
       }
     },
     ", %lld%%" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -8049,6 +8056,7 @@
     },
     "%" : {
       "comment" : "Percentage symbol",
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -8179,6 +8187,7 @@
       }
     },
     "%.0f%%" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -9386,6 +9395,7 @@
       }
     },
     "%@ %%" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -9514,6 +9524,9 @@
           }
         }
       }
+    },
+    "%@ ago" : {
+      "comment" : "Accessibility: elapsed time; %@ is a duration like \"1 hour, 59 minutes\". Word it so %@ stays unchanged (German: \"%@ her\")."
     },
     "%@ and %lld g fat" : {
       "comment" : "The text to be displayed when fat is > 0 for the Add Carbs shortcut",
@@ -11778,132 +11791,132 @@
         }
       }
     },
-    "%@%% Insulin" : {
+    "%@ Insulin" : {
       "localizations" : {
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Инсулин"
+            "value" : "%@ Инсулин"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Inzulín"
+            "value" : "%@ Inzulín"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Insulin"
+            "value" : "%@ Insulin"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Insulin"
+            "value" : "%@ Insulin"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Insulina"
+            "value" : "%@ Insulina"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Insuline %@ %%"
+            "value" : "Insuline %@"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% אינסולין"
+            "value" : "%@ אינסולין"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Insulina"
+            "value" : "%@ Insulina"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% 인슐린"
+            "value" : "%@ 인슐린"
           }
         },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Insulin"
+            "value" : "%@ Insulin"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Insuline"
+            "value" : "%@ Insuline"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Insulina"
+            "value" : "%@ Insulina"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Insulina"
+            "value" : "%@ Insulina"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "%@%% Insulin"
+            "value" : "%@ Insulin"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Инсулин"
+            "value" : "%@ Инсулин"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Insulin"
+            "value" : "%@ Insulin"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "%@%% Insulin"
+            "value" : "%@ Insulin"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Insulin"
+            "value" : "%@ Insulin"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% Insulin"
+            "value" : "%@ Insulin"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% 胰岛素"
+            "value" : "%@ 胰岛素"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@%% 胰島素"
+            "value" : "%@ 胰島素"
           }
         }
       }
@@ -12047,6 +12060,7 @@
       }
     },
     "%1$d days %2$d hours" : {
+      "extractionState" : "stale",
       "comment" : "Accessibility: pod time",
       "localizations" : {
         "bg" : {
@@ -12178,6 +12192,7 @@
       }
     },
     "%1$d hours %2$d minutes" : {
+      "extractionState" : "stale",
       "comment" : "Accessibility: pod time",
       "localizations" : {
         "bg" : {
@@ -12440,6 +12455,7 @@
       }
     },
     "%d hours" : {
+      "extractionState" : "stale",
       "comment" : "Accessibility: pod time",
       "localizations" : {
         "bg" : {
@@ -12571,6 +12587,7 @@
       }
     },
     "%d minutes" : {
+      "extractionState" : "stale",
       "comment" : "Accessibility: pod time",
       "localizations" : {
         "bg" : {
@@ -12702,6 +12719,7 @@
       }
     },
     "%d minutes ago" : {
+      "extractionState" : "stale",
       "comment" : "Accessibility: elapsed time",
       "localizations" : {
         "bg" : {
@@ -13356,6 +13374,7 @@
       }
     },
     "%lld %%" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -14266,6 +14285,7 @@
       }
     },
     "%lld%%" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -94483,6 +94503,7 @@
       }
     },
     "d" : {
+      "extractionState" : "stale",
       "comment" : "Abbreviation for Days\nabbreviation for days",
       "localizations" : {
         "bg" : {
@@ -131900,6 +131921,9 @@
         }
       }
     },
+    "Entry expired after 2 minutes. Nothing was sent. Please enter it again." : {
+      "comment" : "Watch message when a carbs or bolus entry was too old to send"
+    },
     "Error" : {
       "comment" : "Error title",
       "localizations" : {
@@ -132558,6 +132582,9 @@
           }
         }
       }
+    },
+    "Error! Bolus amount must be greater than 0 U." : {
+      "comment" : "Error message when a bolus of zero or less is requested"
     },
     "Error! Bolus cancellation failed with error: %@" : {
       "comment" : "Error message for canceling a bolus",
@@ -157552,6 +157579,7 @@
       "isCommentAutoGenerated" : true
     },
     "h" : {
+      "extractionState" : "stale",
       "comment" : "Abbreviation for Hours\nabbreviation for hours\nh",
       "localizations" : {
         "bg" : {
@@ -164586,14 +164614,12 @@
       "comment" : "The vertical axis label in the GRI risk grid.",
       "isCommentAutoGenerated" : true
     },
-    "Hypoglycemia %@ percent, hyperglycemia %@ percent" : {
-      "comment" : "A textual representation of the GRI risk grid, including the values for hypoglycemia and hyperglycemia.",
-      "isCommentAutoGenerated" : true,
+    "Hypoglycemia %@, hyperglycemia %@" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Hypoglycemia %1$@ percent, hyperglycemia %2$@ percent"
+            "value" : "Hypoglycemia %1$@, hyperglycemia %2$@"
           }
         }
       }
@@ -172381,6 +172407,12 @@
         }
       }
     },
+    "Insulin doses will be decreased by %@." : {
+      "comment" : "Adjustment footer; the value is a percentage, e.g. 20%"
+    },
+    "Insulin doses will be increased by %@." : {
+      "comment" : "Adjustment footer; the value is a percentage, e.g. 20%"
+    },
     "Insulin Limit Reached" : {
       "localizations" : {
         "bg" : {
@@ -176357,6 +176389,9 @@
           }
         }
       }
+    },
+    "iPhone not reachable. Nothing was sent." : {
+      "comment" : "Watch message when a request could not be sent to the phone"
     },
     "is running" : {
       "localizations" : {
@@ -180839,6 +180874,9 @@
           }
         }
       }
+    },
+    "less than a minute" : {
+      "comment" : "Accessibility: a duration under one minute"
     },
     "less than a minute ago" : {
       "comment" : "Accessibility: elapsed time",
@@ -191914,6 +191952,7 @@
     },
     "m" : {
       "comment" : "Abbreviation for Minutes\nabbreviation for minutes",
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -211040,6 +211079,9 @@
           }
         }
       }
+    },
+    "No answer from iPhone. Check Trio on your iPhone before trying again." : {
+      "comment" : "Watch message when the phone did not confirm a request"
     },
     "No Bolus Data" : {
       "localizations" : {
@@ -233879,6 +233921,7 @@
     },
     "percent" : {
       "comment" : "Accessibility: spoken unit",
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -241129,132 +241172,132 @@
         }
       }
     },
-    "Profile at 100 %" : {
+    "Profile at %@" : {
       "localizations" : {
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Профил при 100 %"
+            "value" : "Профил при %@"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Profil ve 100 %"
+            "value" : "Profil ve %@"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Profil ved 100 %"
+            "value" : "Profil ved %@"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Profil bei 100 %"
+            "value" : "Profil bei %@"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Perfil al 100 %"
+            "value" : "Perfil al %@"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Profil à 100 %"
+            "value" : "Profil à %@"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Profile at 100 %"
+            "value" : "Profile at %@"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Profilo al 100 %"
+            "value" : "Profilo al %@"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "100% 프로필"
+            "value" : "%@ 프로필"
           }
         },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Profil på 100%"
+            "value" : "Profil på %@"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Profiel op 100% %"
+            "value" : "Profiel op %@"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Profil na 100 %"
+            "value" : "Profil na %@"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Perfil a 100 %"
+            "value" : "Perfil a %@"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Profile at 100 %"
+            "value" : "Profile at %@"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Профиль на 100 %"
+            "value" : "Профиль на %@"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Profil på 100 %"
+            "value" : "Profil på %@"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Profile at 100 %"
+            "value" : "Profile at %@"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Профіль у 100%"
+            "value" : "Профіль у %@"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hồ sơ ở mức 100%"
+            "value" : "Hồ sơ ở mức %@"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "配置文件倍率 100%"
+            "value" : "配置文件倍率 %@"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "設定檔 100 %"
+            "value" : "設定檔 %@"
           }
         }
       }
@@ -312233,6 +312276,7 @@
       }
     },
     "time unknown" : {
+      "extractionState" : "stale",
       "comment" : "Accessibility: elapsed time unavailable",
       "localizations" : {
         "bg" : {
